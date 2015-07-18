@@ -14,7 +14,7 @@
 
 Устанавливаем ruby пакеты
 ~~~bash
-composer create-project newway/nw-core=dev-master
+composer create-project newway/nw-core=dev-master .
 ~~~
 
 ## Подготовка окружения
@@ -41,6 +41,15 @@ bower install
 ~~~bash
 gulp
 ~~~
+
+## Запуск сервера
+
+~~~bash
+	php artisan serve
+~~~
+
+
+
 
 ## Запуск мониторинга исходного кода
 
