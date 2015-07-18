@@ -2,3 +2,14 @@
 /node_modules
 Homestead.yaml
 .env
+/.idea
+/.git
+composer.phar
+.DS_Store
+Thumbs.db
+_ide_helper.php
+/public/uploads/*
+/public/assets/*
+/.sass-cache
+/.vagrant
+/src
