@@ -143,6 +143,13 @@ return [
         App\Providers\AppServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        Illuminate\Html\HtmlServiceProvider::class,
+
+
+        /*
+         * Custom Service Providers...
+         */
+        YAAP\Theme\ThemeServiceProvider::class,
 
     ],
 
@@ -191,6 +198,10 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
+        'Theme'     => YAAP\Theme\Facades\Theme::class,
+        'Meta'      => App\Libraries\Meta::class,
+        'Form'      => Illuminate\Html\FormFacade::class,
+        'HTML'      => Illuminate\Html\HtmlFacade::class,
 
     ],
 

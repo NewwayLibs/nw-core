@@ -14,7 +14,7 @@
 
 Устанавливаем ruby пакеты
 ~~~bash
-composer create-project newway/nw-core --prefer-dist
+composer create-project newway/nw-core=dev-master
 ~~~
 
 ## Подготовка окружения
