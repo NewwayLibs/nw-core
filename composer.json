@@ -1,9 +1,7 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
+    "name": "newway/nw-core",
+    "description": "Core",
     "keywords": [
-        "framework",
-        "laravel"
     ],
     "license": "MIT",
     "type": "project",
@@ -12,7 +10,6 @@
         "laravel/framework": "5.1.*",
         "yaap/theme": "2.*",
         "illuminate/html": "5.0.*"
-
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -20,7 +17,6 @@
         "phpunit/phpunit": "~4.0",
         "phpspec/phpspec": "~2.1",
         "barryvdh/laravel-debugbar": "~2.0"
-
     },
     "autoload": {
         "classmap": [
